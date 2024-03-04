@@ -1,0 +1,25 @@
+{
+  "name": "imagecolorizer",
+  "version": "1.0.0",
+  "description": "A module for colorizing grayscale images using color palettes generated with the newcolorgen module.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Renderlynx/imagecolorizer.git"
+  },
+  "keywords": [
+    "image",
+    "color",
+    "colorization",
+    "grayscale"
+  ],
+  "author": "Renderlynx",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "newcolorgen": "^1.0.0"
+  }
+}
